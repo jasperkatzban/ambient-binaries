@@ -145,7 +145,7 @@ let sourceDiningHall;
 let sourceMezzanine;
 let sourceDishes;
 let sourceWoodenWaterfall;
-let sourceMailroom;
+// let sourceMailroom;
 
 let sourceOurSpace;
 
@@ -190,7 +190,7 @@ function preload() {
   sourceMezzanine = new SoundSource('sourceMezzanine', 'Mezzanine', 462, 340, soundsourcePeopleudioRadius);
   sourceDishes = new SoundSource('sourceDishes', 'Dishes', 506, 358, soundsourcePeopleudioRadius);
   sourceWoodenWaterfall = new SoundSource('sourceWoodenWaterfall', 'WoodenWaterfall', 572, 374, soundsourcePeopleudioRadius);
-  sourceMailroom = new SoundSource('sourceMailroom', 'Mailroom', 506, 407, soundsourcePeopleudioRadius);
+  // sourceMailroom = new SoundSource('sourceMailroom', 'Mailroom', 506, 407, soundsourcePeopleudioRadius);
   sourceOurSpace = new SoundSource('sourceOurSpace', 'OurSpace', 506, 298, soundsourcePeopleudioRadius);
   sourceFreightElevator = new SoundSource('sourceFreightElevator', 'FreightElevator', 488, 180, soundsourcePeopleudioRadius);
   sourceTables = new SoundSource('sourceTables', 'Tables', 440, 159, soundsourcePeopleudioRadius);
@@ -237,7 +237,7 @@ function setup() {
   sourceMezzanine.loop();
   sourceDishes.loop();
   sourceWoodenWaterfall.loop();
-  sourceMailroom.loop();
+  // sourceMailroom.loop();
   sourceOurSpace.loop();
   sourceFreightElevator.loop();
   sourceTables.loop();
@@ -279,7 +279,7 @@ function canvasPressed() {
   sourceMezzanine.togglePeople()
   sourceDishes.togglePeople()
   sourceWoodenWaterfall.togglePeople()
-  sourceMailroom.togglePeople()
+  // sourceMailroom.togglePeople()
   sourceOurSpace.togglePeople()
   sourceFreightElevator.togglePeople()
   sourceTables.togglePeople()
@@ -333,7 +333,7 @@ function draw() {
   sourceMezzanine.update();
   sourceDishes.update();
   sourceWoodenWaterfall.update();
-  sourceMailroom.update();
+  // sourceMailroom.update();
   sourceOurSpace.update();
   sourceFreightElevator.update();
   sourceTables.update();
