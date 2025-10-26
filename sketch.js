@@ -213,6 +213,16 @@ function preload() {
 function setup() {
   let cnv = createCanvas(640, 640);
   cnv.mousePressed(canvasPressed);
+
+  flex({
+    container: { padding: "5em" },
+    canvas: {
+      fit: CONTAIN
+    }
+  })
+
+  pixelDensity(2)
+
   bg = loadImage("assets/images/bg.png");
   background(bg);
 
