@@ -215,7 +215,7 @@ function setup() {
   cnv.mousePressed(canvasPressed);
 
   flex({
-    container: { padding: "5em" },
+    container: { padding: "3rem" },
     canvas: {
       fit: CONTAIN
     }
